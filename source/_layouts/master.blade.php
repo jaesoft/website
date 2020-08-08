@@ -27,46 +27,38 @@
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     </head>
 
-    <body class="flex flex-col justify-between min-h-screen bg-gray-100 text-gray-800 leading-normal font-sans">
-        <header class="flex items-center shadow bg-white border-b h-24 py-4" role="banner">
-            <div class="container flex items-center max-w-8xl mx-auto px-4 lg:px-8">
-                <div class="flex items-center">
-                    <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center">
-                        <img class="h-8 md:h-10 mr-3" src="/assets/img/logo.svg" alt="{{ $page->siteName }} logo" />
+    <body class="flex flex-col min-h-screen bg-gray-100 text-gray-800 leading-normal font-sans">
+        <!-- header -->
+		<header class="w-full px-6 bg-white">
+			<div class="container mx-auto max-w-4xl md:flex justify-between items-center">
+				<a href="/" title="{{ $page->siteName }} home" class="py-6 w-full text-center md:text-left md:w-auto text-gray-600 no-underline flex justify-center items-center">
+                <img class="h-8 md:h-10 mr-3" src="/assets/img/logo.svg" alt="{{ $page->siteName }} logo" />
+                {{ $page->siteName }}
+				</a>
+				<div class="w-full md:w-auto mb-6 md:mb-0 text-center md:text-right">
+					<a href="#" class="inline-block no-underline bg-black text-white text-sm py-2 px-3">Sign Up</a>
+				</div>
+			</div>
+		</header>
+		<!-- /header -->
+        @include('_nav.menu')
 
-                        <h1 class="text-lg md:text-2xl text-blue-800 font-semibold hover:text-blue-600 my-0">{{ $page->siteName }}</h1>
-                    </a>
-                </div>
-
-                <div id="vue-search" class="flex flex-1 justify-end items-center">
-                    <search></search>
-
-                    @include('_nav.menu')
-
-                    @include('_nav.menu-toggle')
-                </div>
-            </div>
-        </header>
-
-        @include('_nav.menu-responsive')
-
-        <main role="main" class="flex-auto w-full container max-w-4xl mx-auto py-16 px-6">
+        <main role="main">
             @yield('body')
         </main>
 
-        <footer class="bg-white text-center text-sm mt-12 py-4" role="contentinfo">
-            <ul class="flex flex-col md:flex-row justify-center list-none">
-                <li class="md:mr-2">
-                    &copy; <a href="https://tighten.co" title="Tighten website">Tighten</a> {{ date('Y') }}.
-                </li>
-
-                <li>
-                    Built with <a href="http://jigsaw.tighten.co" title="Jigsaw by Tighten">Jigsaw</a>
-                    and <a href="https://tailwindcss.com" title="Tailwind CSS, a utility-first CSS framework">Tailwind CSS</a>.
-                </li>
-            </ul>
-        </footer>
-
+		<!-- footer -->
+		<footer class="w-full bg-white px-6 border-t">
+			<div class="container mx-auto max-w-4xl py-6 flex flex-wrap md:flex-no-wrap justify-between items-center text-sm">
+				&copy;{{ date('Y') }} Jaesoft. All rights reserved.
+				<div class="pt-4 md:p-0 text-center md:text-right text-xs">
+					<a href="#" class="text-black no-underline hover:underline">Privacy Policy</a>
+					<a href="#" class="text-black no-underline hover:underline ml-4">Terms &amp; Conditions</a>
+					<a href="/contact" class="text-black no-underline hover:underline ml-4">Contact Us</a>
+				</div>
+			</div>
+		</footer>
+		<!-- /footer -->
         <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
 
         @stack('scripts')

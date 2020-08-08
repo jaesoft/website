@@ -1,16 +1,16 @@
-<nav class="hidden lg:flex items-center justify-end text-lg">
-    <a title="{{ $page->siteName }} Blog" href="/blog"
-        class="ml-6 text-gray-700 hover:text-blue-600 {{ $page->isActive('/blog') ? 'active text-blue-600' : '' }}">
-        Blog
-    </a>
-
-    <a title="{{ $page->siteName }} About" href="/about"
-        class="ml-6 text-gray-700 hover:text-blue-600 {{ $page->isActive('/about') ? 'active text-blue-600' : '' }}">
-        About
-    </a>
-
-    <a title="{{ $page->siteName }} Contact" href="/contact"
-        class="ml-6 text-gray-700 hover:text-blue-600 {{ $page->isActive('/contact') ? 'active text-blue-600' : '' }}">
-        Contact
-    </a>
+<!-- navigation -->
+<nav class="w-full bg-white md:pt-0 px-6 shadow-lg relative z-20 border-t border-b border-gray-400">
+    <div class="container mx-auto max-w-4xl md:flex justify-between items-center text-sm md:text-md md:justify-start">
+        <div class="w-full md:w-1/2 text-center md:text-left py-4 flex flex-wrap justify-center items-stretch md:justify-start md:items-start">
+            <a href="/" title="{{ $page->siteName }} Home" class="px-2 md:pl-0 md:mr-3 md:pr-3 text-gray-700 no-underline md:border-r border-gray-400 hover:text-blue-600 {{ $page->isActive('/') ? 'active text-blue-600' : '' }}">Home</a>
+            <a href="#" title="{{ $page->siteName }} Products" class="px-2 md:pl-0 md:mr-3 md:pr-3 text-gray-700 no-underline md:border-r border-gray-400 hover:text-blue-600">Products</a>
+            <a href="/about" title="{{ $page->siteName }} About Us" class="px-2 md:pl-0 md:mr-3 md:pr-3 text-gray-700 no-underline md:border-r border-gray-400 hover:text-blue-600 {{ $page->isActive('/about') ? 'active text-blue-600' : '' }}">About Us</a>
+            <a href="#" title="{{ $page->siteName }} News" class="px-2 md:pl-0 md:mr-3 md:pr-3 text-gray-700 no-underline md:border-r border-gray-400 hover:text-blue-600">News</a>
+            <a href="/contact" title="{{ $page->siteName }} Contact" class="px-2 md:pl-0 md:mr-3 md:pr-3 text-gray-700 no-underline hover:text-blue-600 {{ $page->isActive('/contact') ? 'active text-blue-600' : '' }}">Contact</a>
+        </div>
+        <div id="vue-search" class="flex flex-1 justify-end items-center">
+            <search></search>
+        </div>
+    </div>
 </nav>
+<!-- /navigation -->
