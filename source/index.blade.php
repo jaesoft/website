@@ -2,13 +2,13 @@
 
 @section('body')
     <!-- hero -->
-	<div class="w-full py-24 px-6 bg-cover bg-no-repeat bg-center relative z-10" style="background-image: url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=2100');">
+	<div class="w-full py-24 px-6 bg-cover bg-no-repeat bg-center relative z-10" style="background-image: url('/assets/img/preparation_re_t0ce.png');">
 		
         <div class="container max-w-4xl mx-auto text-center">
-            <h1 class="text-xl leading-tight md:text-3xl text-center text-gray-100 mb-3">Lorem ipsum dolor sit amet</h1>
-            <p class="text-md md:text-lg text-center text-white ">Ut enim ad minim veniam, quis nostrud exercitation</p>
+            <h1 class="text-xl leading-tight md:text-3xl text-center text-purple-800 mb-3">Jaesoft IT Solutions</h1>
+            <p class="text-md md:text-lg text-center text-gray-800 ">We provide a wide range of IT solutions from USSD to App Development</p>
 
-            <a href="/register" class="mt-6 inline-block bg-white text-black no-underline px-4 py-3 shadow-lg">Find out more</a>
+            <a href="/about" class="mt-6 inline-block bg-gray-100 text-black no-underline px-4 py-3 shadow-lg">Find out more</a>
         </div>
 
     </div>
@@ -21,39 +21,18 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             </h3>
 
-            <a href="#" class="bg-black text-white px-4 py-3 no-underline">Browse our products</a>
+            <a href="/product" class="bg-black text-white px-4 py-3 no-underline">Browse our products</a>
 
         </div>
 
         <div class="container max-w-4xl mx-auto text-center flex flex-wrap items-start md:flex-no-wrap">
-            
-            <div class="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-4">
-                <img alt="" src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=800" class="w-full h-64 object-cover mb-6" />
-
-                <h2 class="text-xl leading-tight mb-2">Ut enim ad minim veniam officia deserunt</h2>
-                <p class="mt-3 mx-auto text-sm leading-normal">Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur.</p>
-            </div>
-            
-            <div class="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-4">
-                <img alt="" src="https://images.unsplash.com/photo-1513584684374-8bab748fbf90?w=800" class="w-full h-64 object-cover mb-6" />
-
-                <h2 class="text-xl leading-tight mb-2">Ut enim ad minim veniam officia deserunt</h2>
-                <p class="mt-3 mx-auto text-sm leading-normal">Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur.</p>
-            </div>
-            
-            <div class="my-4 w-full md:w-1/3 flex flex-col items-center justify-center px-4">
-                <img alt="" src="https://images.unsplash.com/photo-1494526585095-c41746248156?w=800" class="w-full h-64 object-cover mb-6" />
-
-                <h2 class="text-xl leading-tight mb-2">Ut enim ad minim veniam officia deserunt</h2>
-                <p class="mt-3 mx-auto text-sm leading-normal">Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur.</p>
-            </div>
-
+            @foreach ($products->where('featured', true) as $post)
+                @include('_components.product-preview-inline')
+            @endforeach
         </div>
     </div>
     <!-- /home content -->
+    @include('_components.newsletter-signup')
     <!-- about -->
     <div class="w-full px-6 py-12 text-left bg-gray-300 text-gray-700 leading-normal">
         <div class="container max-w-4xl mx-auto flex justify-center flex-wrap md:flex-no-wrap">

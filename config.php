@@ -7,7 +7,7 @@ return [
     'production' => false,
     'siteName' => 'Jaesoft',
     'siteDescription' => 'Jaesoft - IT Solutions. We build USSD apps, consultancy on architecture, app development, website design etc',
-    'siteAuthor' => 'Author Name',
+    'siteAuthor' => 'Julius Krah',
 
     // collections
     'collections' => [
@@ -23,6 +23,9 @@ return [
                     return $post->categories ? in_array($page->getFilename(), $post->categories, true) : false;
                 });
             },
+        ],
+        'products' => [
+            'path' => 'product/{filename}',
         ],
     ],
 

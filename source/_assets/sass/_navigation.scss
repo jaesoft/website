@@ -1,10 +1,25 @@
 .nav-menu {
-    @apply .bg-gray-200;
-    @apply .pb-2;
-    @apply .pt-6;
-    @apply .px-2;
-    @apply .shadow;
-    @apply .w-auto;
+    @apply px-2 text-gray-700 no-underline;
+}
+
+.nav-menu:hover {
+    @apply text-blue-600;
+}
+
+.nav-menu-border {
+    @apply border-gray-400;
+}
+
+@screen md {
+    .nav-menu-border {
+        @apply border-r;
+    }
+}
+
+@screen md {
+    .nav-menu {
+        @apply pl-0 mr-3 pr-3;
+    }
 }
 
 .nav-menu__item {
@@ -15,3 +30,4 @@
     @apply .text-gray-800;
     @apply .text-sm;
 }
+
