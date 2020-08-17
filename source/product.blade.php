@@ -13,7 +13,8 @@ pagination:
 @endpush
 
 @section('body')
-    <h1>Products</h1>
+<div class="mx-8">
+    <h1>Services</h1>
 
     <hr class="border-b my-6">
 
@@ -52,4 +53,5 @@ pagination:
             @endif
         </nav>
     @endif
+</div>
 @stop

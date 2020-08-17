@@ -8,6 +8,7 @@
 @endpush
 
 @section('body')
+<div class="mx-8">
     <h1>About</h1>
 
     <img src="/assets/img/about.png"
@@ -19,4 +20,5 @@
     <p class="mb-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum officia dolorem accusantium veniam quae, possimus, temporibus explicabo magni voluptas. fugit natus deserunt atque veniam possimus earum harum itaque est!</p>
 
     <p class="mb-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum officia dolorem accusantium veniam quae, possimus, temporibus explicabo magni voluptas. fugit natus deserunt atque veniam!</p>
+</div>
 @endsection

@@ -35,9 +35,7 @@
                 <img class="h-8 md:h-10 mr-3" src="/assets/img/logo.svg" alt="{{ $page->siteName }} logo" />
                 {{ $page->siteName }}
 				</a>
-				<div class="w-full md:w-auto mb-6 md:mb-0 text-center md:text-right">
-					<a href="#" class="inline-block no-underline bg-black text-white text-sm py-2 px-3">Sign Up</a>
-				</div>
+				
 			</div>
 		</header>
 		<!-- /header -->
