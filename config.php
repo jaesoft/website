@@ -26,8 +26,8 @@ return [
                 });
             },
         ],
-        'products' => [
-            'path' => 'product/{filename}',
+        'services' => [
+            'path' => 'service/{filename}',
         ],
     ],
 

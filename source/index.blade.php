@@ -18,15 +18,15 @@
         <div class="container max-w-4xl mx-auto text-center pb-10">
             
             <h3 class="text-xl md:text-3xl leading-tight text-center max-w-md mx-auto text-gray-900 mb-12">
-                We provide a range of products and services from USSD to Mobile app development
+            We provide an extensive range of financial technology services to meet your precise requirements.
             </h3>
 
-            <a href="/product" class="bg-black text-white px-4 py-3 no-underline">Browse our services</a>
+            <a href="/service" class="bg-black text-white px-4 py-3 no-underline">Browse our services</a>
 
         </div>
 
         <div class="container max-w-4xl mx-auto text-center flex flex-wrap items-start md:flex-no-wrap">
-            @foreach ($products->where('featured', true) as $post)
+            @foreach ($services->where('featured', true) as $post)
                 @include('_components.product-preview-inline')
             @endforeach
         </div>
