@@ -5,7 +5,7 @@
             <a href="/" title="{{ $page->siteName }} Home"              class="nav-menu nav-menu-border {{ $page->isActive('/') ? 'active text-blue-600' : '' }}">Home</a>
             <a href="/service" title="{{ $page->siteName }} Services"   class="nav-menu nav-menu-border {{ $page->isActive('/service') ? 'active text-blue-600' : '' }}">Services</a>
             <a href="/about" title="{{ $page->siteName }} About Us"     class="nav-menu nav-menu-border {{ $page->isActive('/about') ? 'active text-blue-600' : '' }}">About Us</a>
-            <!-- <a href="#" title="{{ $page->siteName }} Team"              class="nav-menu nav-menu-border">Team</a> -->
+            <a href="/faq" title="{{ $page->siteName }} FAQ"            class="nav-menu nav-menu-border {{ $page->isActive('/faq') ? 'active text-blue-600' : '' }}">FAQs</a>
             <a href="/contact" title="{{ $page->siteName }} Contact"    class="nav-menu                 {{ $page->isActive('/contact') ? 'active text-blue-600' : '' }}">Contact</a>
         </div>
         <div id="vue-search" class="flex flex-1 justify-end items-center">

@@ -9,11 +9,13 @@
 
 @section('body')
 <div class="mx-8">
-<h1>Contact</h1>
+<h1>Contact Us</h1>
 
 <p class="mb-8">
-    Add a map here
+    -- Add a map here
 </p>
+
+<p>-- Add address here</p>
 
 <form action="/contact" class="mb-12" data-netlify="true">
     <div class="flex flex-wrap mb-6 -mx-3">
