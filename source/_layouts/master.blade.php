@@ -35,7 +35,10 @@
                 <img class="h-8 md:h-10 mr-3" src="/assets/img/logo.svg" alt="{{ $page->siteName }} logo" />
                 {{ $page->siteName }}
 				</a>
-				
+				<div class="w-full md:w-auto mb-6 md:mb-0 text-center md:text-right">
+					contact: {{ $page->contactNumber }} <br/>
+                    email:   {{ $page->contactEmail }}
+				</div>
 			</div>
 		</header>
 		<!-- /header -->

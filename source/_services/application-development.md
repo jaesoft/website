@@ -7,4 +7,4 @@ cover_image: /assets/img/app_wireframe_9ssu.png
 description: Jaesoft provides bespoke application development
 ---
 
-We build customized payment platforms (mobile and USSD applications) for corporate entities, non-governmental organizations and other entities across industries.
+We develop unique and advanced mobile applications for corporate entities and businesses.
