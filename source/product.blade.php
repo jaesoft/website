@@ -13,19 +13,19 @@ pagination:
 @endpush
 
 @section('body')
-    <h1>Products</h1>
+    <div class="product-header">
+        <h1>Products</h1>
+    </div>
 
-    <hr class="border-b my-6">
-
+<div class="container-main">
     @foreach ($pagination->items as $post)
         @include('_components.product-preview-inline')
 
         @if ($post != $pagination->items->last())
-            <hr class="border-b my-6">
+            
         @endif
     @endforeach
-
-    @if ($pagination->pages->count() > 1)
+        @if ($pagination->pages->count() > 1)
         <nav class="flex text-base my-8">
             @if ($previous = $pagination->previous)
                 <a
@@ -52,4 +52,9 @@ pagination:
             @endif
         </nav>
     @endif
+</div>
+
+
+
+
 @stop

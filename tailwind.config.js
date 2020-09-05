@@ -2,6 +2,7 @@ module.exports = {
   purge: false,
   theme: {
     extend: {
+ 
       fontFamily: {
         sans: [
           'Nunito Sans'
