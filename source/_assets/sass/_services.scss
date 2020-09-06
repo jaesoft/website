@@ -1,27 +1,26 @@
 .service-main-header {
-    text-align: center;
-    padding: 2rem;
-  }
-
-.service-main-header  h1 {
-    text-transform: uppercase;
-  }
-.services-container-main{
-    width: 90%;
-  margin: 0 auto 3rem auto;  
+  text-align: center;
+  padding: 2rem;
+  border-radius: 1px solid #ccc;
 }
 
+.service-main-header h1 {
+  text-transform: uppercase;
+}
+.services-container-main {
+  width: 90%;
+  margin: 0 auto 3rem auto;
+}
 
 .service {
-    padding: 1rem 0;
-    margin: 1rem 0;
+  padding: 1rem 0;
+  margin: 1rem 0;
 }
 
-.service-header{
-    font-family: bold;
-
+.service-header {
+  font-family: bold;
 }
-.service-content>p{
-    line-height: 1.5em;
-    padding: 1em 0;
+.service-content > p {
+  line-height: 1.5em;
+  padding: 1em 0;
 }
