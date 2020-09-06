@@ -7,7 +7,7 @@
     <meta property="og:description" content="A little bit about {{ $page->siteName }}" />
 @endpush
 
-@section('body')
+@section('body') 
 
     <div class="about-header">
         <h1>About us</h1>
