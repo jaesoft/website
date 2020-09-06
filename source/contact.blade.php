@@ -114,7 +114,7 @@
             </div>
             <div>
             <span class="icon">        
-                <i class="fa fa-phone-square" aria-hidden="true"></i>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
             </span>
             <span>  email:  </span>
             <span>    info@jaesoft.tech  </span>

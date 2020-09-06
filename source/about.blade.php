@@ -24,10 +24,10 @@
                     </div>
                     <div class="section-component-content">
                         <p class="mb-6">
-                            We are a team of qualified professionals with expertise and experiences in software engineering
+                            We are a team of qualified professionals with expertise and experiences in software engineering <br>
                             and software architecture.
                             <br>
-                            We also boast of a formidable team of business analysts and sales and marketing experts who are
+                            We also boast of a formidable team of business analysts and sales and marketing experts <br> who are
                             always on the move to give you the quality service you deserve. 
                         </p>
                     </div>
