@@ -1,7 +1,6 @@
 .about-header {
     text-align: center;
     padding: 2rem;
-    border-bottom: 1px solid #ccc;
   }
   .about-header h1 {
     text-transform: uppercase;
@@ -9,6 +8,21 @@
 .about-container{
     width: 90%;
   margin: auto;  
+}
+.section{
+  margin: 3rem 0rem;
+  padding: 1rem 0rem;
+}
+.section-component {
+  margin: 2rem;
+  padding: 1rem;
+}
+.section-component-header{
+  
+  margin: .5rem 0;
+}
+.section-component li {
+  margin-left: 1rem;
 }
 footer {
     margin-top: auto;
