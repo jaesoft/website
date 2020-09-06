@@ -9,10 +9,10 @@
 @endpush
 
 @section('body')
-    <div class="product-header">
+    <div class="service-main-header">
         <h1>Our Services</h1>
     </div>
-<div class="container-main">
+<div class="services-container-main">
 <div class="service">
     <div class="service-header">
         <h4>App Development</h4>
@@ -75,7 +75,7 @@
 </div>
 <div class="service">
     <div class="service-header">
-        <h4>- USSD </h4>
+        <h4>USSD </h4>
     </div>
     <div class="service-content">
         <p>
