@@ -77,7 +77,7 @@
                         </div>
                         <div class="div-col-item">
                             <p class="mb-6">
-                              <a href="#">  Have more questions?</a>
+                              <a href="/faqs">  Have more questions?</a>
                             </p>
                         </div>
                    
