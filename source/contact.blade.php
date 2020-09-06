@@ -110,15 +110,14 @@
                     <i class="fa fa-phone-square" aria-hidden="true"></i>
                 </span>
                 <span>  phone number:  </span>
-                <span>   {{ Config::get('key', 'default');  }} </span>
+                <span>   {{ $page->contactNumber }} </span>
             </div>
             <div>
             <span class="icon">        
                 <i class="fa fa-envelope" aria-hidden="true"></i>
             </span>
             <span>  email:  </span>
-            <span>    info@jaesoft.tech  </span>
-        </div>
+            <span>    {{ $page->contactEmail}}
     
     </div>
 </div>
