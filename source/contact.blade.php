@@ -110,7 +110,7 @@
                     <i class="fa fa-phone-square" aria-hidden="true"></i>
                 </span>
                 <span>  phone number:  </span>
-                <span>   +233-26-123-456  </span>
+                <span>   {{ Config::get('key', 'default');  }} </span>
             </div>
             <div>
             <span class="icon">        
