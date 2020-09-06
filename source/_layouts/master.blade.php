@@ -16,7 +16,7 @@
         <link rel="home" href="{{ $page->baseUrl }}">
         <link rel="icon" href="/favicon.ico">
         <link href="/blog/feed.atom" type="application/atom+xml" rel="alternate" title="{{ $page->siteName }} Atom Feed">
-
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         @stack('meta')
 
         @if ($page->production)

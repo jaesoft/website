@@ -8,9 +8,12 @@
 @endpush
 
 @section('body')
-    <h1>About</h1>
 
-    <img src="/assets/img/about.png"
+    <div class="about-header">
+        <h1>About</h1>
+    </div>
+    <div class="about-container">
+        <img src="/assets/img/about.png"
         alt="About image"
         class="flex rounded-full h-64 w-64 bg-contain mx-auto md:float-right my-6 md:ml-10">
 
@@ -19,4 +22,5 @@
     <p class="mb-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum officia dolorem accusantium veniam quae, possimus, temporibus explicabo magni voluptas. fugit natus deserunt atque veniam possimus earum harum itaque est!</p>
 
     <p class="mb-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum officia dolorem accusantium veniam quae, possimus, temporibus explicabo magni voluptas. fugit natus deserunt atque veniam!</p>
+    </div>
 @endsection
