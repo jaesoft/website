@@ -9,7 +9,7 @@
 @endpush
 
 @section('body')
-    <div class="product-header">
+    <div class="fag-header">
         <h1>Jeosoft FAQs</h1>
     </div>
 

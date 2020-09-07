@@ -24,11 +24,11 @@
                     </div>
                     <div class="section-component-content">
                         <p class="mb-6">
-                            We are a team of qualified professionals with expertise and experiences in software engineering <br>
+                            We are a team of qualified professionals with expertise and experiences in software engineering 
                             and software architecture.
                             <br>
-                            We also boast of a formidable team of business analysts and sales and marketing experts <br> who are
-                            always on the move to give you the quality service you deserve. 
+                            We also boast of a formidable team of business analysts and sales and marketing experts  who are
+                            always on <br>the move to give you the quality service you deserve. 
                         </p>
                     </div>
             </div>
@@ -72,9 +72,7 @@
                             for hospitals, health institutions and health insurance companies 
                         </div>
                         
-                        <div class="col-item">
-                            @include('_components.newsletter-signup')
-                        </div>
+                        
                         <div class="div-col-item">
                             <p class="mb-6">
                               <a href="/faqs">  Have more questions?</a>
@@ -85,8 +83,10 @@
                 </div>
             </div>
         </div>
-        
-
+        <div class="col-item">
+            @include('_components.newsletter-signup')
         </div>
+
+    </div>
     </div>
 @endsection
