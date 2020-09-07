@@ -1,6 +1,6 @@
 ---
 pagination:
-    collection: products
+    collection: services
     perPage: 4
 ---
 @extends('_layouts.master')

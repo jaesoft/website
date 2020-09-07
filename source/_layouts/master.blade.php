@@ -35,7 +35,8 @@
                 {{ $page->siteName }}
 				</a>
 				<div class="w-full md:w-auto mb-6 md:mb-0 text-center md:text-right">
-					<a href="#" class="inline-block no-underline bg-black text-white text-sm py-2 px-3">Sign Up</a>
+					contact: {{ $page->contactNumber }} <br/>
+                    email:   {{ $page->contactEmail }}
 				</div>
 			</div>
 		</header>
