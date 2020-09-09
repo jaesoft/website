@@ -31,3 +31,20 @@
     @apply .text-sm;
 }
 
+
+@media(max-width: 600px ){
+    #main_menu{
+        display: none;
+    }
+    #reponsive-menu li{
+        list-style: none;
+    }
+ 
+}
+@media(min-width: 600px ){
+
+    #humberger{
+        display: none;
+    }
+
+}
