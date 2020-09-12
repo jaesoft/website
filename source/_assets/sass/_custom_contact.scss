@@ -19,3 +19,27 @@
     padding: 1rem;
     margin: 1rem;
 }
+.bottm-container{
+  display: flex;
+}
+.map-container{
+margin-left: 10em;
+margin-bottom: 2em;
+}
+.map-header{
+  display: flex;
+  text-align: center;
+}
+.map-icon{
+  margin-left: 1em;
+  margin-right: 1em;
+}
+@media(max-width: 600px ){
+  .bottm-container{
+    display: block;
+  }
+  .map-container{
+    display: block;
+    margin-left: 0;
+    }
+}
