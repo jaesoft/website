@@ -6,28 +6,38 @@
     <meta property="og:url" content="{{ $page->getUrl() }}"/>
     <meta property="og:description" content="{{ $page->description }}" />
 @endpush
-
+ 
 @section('body')
-    @if ($page->cover_image)
-        <img src="{{ $page->cover_image }}" alt="{{ $page->title }} cover image" class="mb-2">
-    @endif
-
-    <h1 class="leading-none mb-2">{{ $page->title }}</h1>
-
-    @if ($page->categories)
-        @foreach ($page->categories as $i => $category)
-            <a
-                href="{{ '/blog/categories/' . $category }}"
-                title="View posts in {{ $category }}"
-                class="inline-block bg-gray-300 hover:bg-blue-200 leading-loose tracking-wide text-gray-800 uppercase text-xs font-semibold rounded mr-4 px-3 pt-px"
-            >{{ $category }}</a>
-        @endforeach
-    @endif
-
-    <div class="border-b border-blue-200 mb-10 pb-4" v-pre>
-        @yield('content')
+    <div class="service-container">
+        <div class="service-content">
+            <h1 class="leading-none mb-2">{{ $page->title }}</h1>
+    
+      
+    
+    
+        @if ($page->categories)
+            @foreach ($page->categories as $i => $category)
+                <a
+                    href="{{ '/blog/categories/' . $category }}"
+                    title="View posts in {{ $category }}"
+                    class="inline-block bg-gray-300 hover:bg-blue-200 leading-loose tracking-wide text-gray-800 uppercase text-xs font-semibold rounded mr-4 px-3 pt-px"
+                >{{ $category }}</a>
+            @endforeach
+        @endif
+    
+        <div class="border-b border-blue-200 mb-10 pb-4" v-pre>
+            @yield('content')
+        </div>
     </div>
+    
+        <div class="service-img-container">
+            @if ($page->cover_image)
+                <img class=" service-img  px-6 relative " src="{{ $page->cover_image }}" alt="{{ $page->title }} cover image" class="mb-2">
+            @endif
+        </div>
 
+
+</div>
     <nav class="flex justify-between text-sm md:text-base">
         <div>
             @if ($next = $page->getNext())
@@ -45,4 +55,5 @@
             @endif
         </div>
     </nav>
+    
 @endsection
