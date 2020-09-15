@@ -1,5 +1,28 @@
-.banner-container p {
+
+.banner-container{
+  height: 80vh;
+  border-bottom: 1px solid rgb(73, 69, 69);
+  
+}
+.banner-container p, .banner-container  h1{
+    color: rgb(74, 20, 238);
+    text-shadow: .05em .05em rgba(235, 229, 229, 0.5);
+
+}
+.banner-container  h1{
+  font-size: 2rem;
+}
+.banner-container p{
+  
+  font-size: 1.5rem;
+}
+.overlay{
+  background-color: rgba(116, 112, 112, 0.3);
+  height: 80vh;
+}
+.banner-container p{
   font-weight: bold;
+  text-shadow: 1em 1em 1em 1em #ccc;
 }
 @media (min-width: 600px) {
   .service-container {

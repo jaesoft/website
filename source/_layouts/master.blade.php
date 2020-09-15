@@ -41,6 +41,8 @@
 			</div>
 		</header>
 		<!-- /header -->
+        @include('_nav.menu-toggle')
+        @include('_nav.menu-responsive')
         @include('_nav.menu')
 
         <main role="main">
