@@ -15,7 +15,7 @@
 <div class="services-container-main">
 <div class="service">
     <div class="service-header">
-        <h4>App Development</h4>
+        <h4> <a href="/service/application-development/"> App Development </a> </h4>
     </div>
     <div class="service-content">
         <p>
@@ -27,9 +27,9 @@
 </div>
 <div class="service">
     <div class="service-header">
-        <h4>
+        <h4> <a href="/service/website-development/"> 
             Website Development 
-        </h4>
+         </a> </h4>
     </div>
     <div class="service-content">
         <p>
@@ -41,9 +41,9 @@
 </div>
 <div class="service">
     <div class="service-header">
-        <h4>
+        <h4> <a href="/service/it-consulting/"> 
             IT Consulting 
-        </h4>
+         </a> </h4>
     </div>
     <div class="service-content">
         <p>
@@ -75,7 +75,7 @@
 </div>
 <div class="service">
     <div class="service-header">
-        <h4>USSD </h4>
+        <h4> <a href="/service/ussd/"> USSD  </a> </h4>
     </div>
     <div class="service-content">
         <p>
@@ -93,9 +93,9 @@
 </div>
 <div class="service">
     <div class="service-header">
-        <h4>
+        <h4> <a href="/service/website-development/"> 
             Software as a Service 
-        </h4>
+         </a> </h4>
     </div>
     <div class="service-content">
         <p>
@@ -131,9 +131,9 @@
     </div>
     <div class="service">
         <div class="service-header">
-            <h4>
+            <h4> <a href="/service/website-development/"> 
                 Information and Website Security 
-            </h4>
+             </a> </h4>
         </div>
         <div class="service-content">
             <p>
