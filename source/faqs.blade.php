@@ -10,7 +10,7 @@
 
 @section('body')
     <div class="product-header">
-        <h1>Jeosoft FAQs</h1>
+        <h1>Jaesoft FAQs</h1>
     </div>
 
 <div class="container-main-faqs">
