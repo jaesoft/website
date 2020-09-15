@@ -25,7 +25,7 @@
 
         </div>
 
-        <div class="container max-w-4xl mx-auto text-center flex flex-wrap items-start md:flex-no-wrap">
+        <div class="container space-x-10 max-w-4xl mx-auto text-center flex flex-wrap items-start md:flex-no-wrap">
             @foreach ($services->where('featured', true) as $post)
                 @include('_components.product-preview-inline')
             @endforeach
