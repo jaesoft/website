@@ -56,7 +56,9 @@
 				<div class="pt-4 md:p-0 text-center md:text-right text-xs">
 					<a href="#" class="text-black no-underline hover:underline">Privacy Policy</a>
 					<a href="#" class="text-black no-underline hover:underline ml-4">Terms &amp; Conditions</a>
-					<a href="/contact" class="text-black no-underline hover:underline ml-4">Contact Us</a>
+                    <a href="/contact" class="text-black no-underline hover:underline ml-4">Contact Us</a>
+                    <a href="/faqs" class="text-black no-underline hover:underline ml-4">FAQs</a>
+
 				</div>
 			</div>
 		</footer>
