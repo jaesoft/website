@@ -12,10 +12,11 @@
         <meta property="og:description" content="{{ $page->siteDescription }}" />
 
         <title>{{ $page->title ?  $page->title . ' | ' : '' }}{{ $page->siteName }}</title>
+
         <link rel="home" href="{{ $page->baseUrl }}">
         <link rel="icon" href="/favicon.ico">
         <link href="/blog/feed.atom" type="application/atom+xml" rel="alternate" title="{{ $page->siteName }} Atom Feed">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
         @stack('meta')
 
         @if ($page->production)
@@ -35,14 +36,11 @@
                 {{ $page->siteName }}
 				</a>
 				<div class="w-full md:w-auto mb-6 md:mb-0 text-center md:text-right">
-					contact: {{ $page->contactNumber }} <br/>
-                    email:   {{ $page->contactEmail }}
+					<a href="#" class="inline-block no-underline bg-black text-white text-sm py-2 px-3">Sign Up</a>
 				</div>
 			</div>
 		</header>
 		<!-- /header -->
-        @include('_nav.menu-toggle')
-        @include('_nav.menu-responsive')
         @include('_nav.menu')
 
         <main role="main">
@@ -56,9 +54,7 @@
 				<div class="pt-4 md:p-0 text-center md:text-right text-xs">
 					<a href="#" class="text-black no-underline hover:underline">Privacy Policy</a>
 					<a href="#" class="text-black no-underline hover:underline ml-4">Terms &amp; Conditions</a>
-                    <a href="/contact" class="text-black no-underline hover:underline ml-4">Contact Us</a>
-                    <a href="/faqs" class="text-black no-underline hover:underline ml-4">FAQs</a>
-
+					<a href="/contact" class="text-black no-underline hover:underline ml-4">Contact Us</a>
 				</div>
 			</div>
 		</footer>

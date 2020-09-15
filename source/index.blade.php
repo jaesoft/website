@@ -4,9 +4,9 @@
     <!-- hero -->
 	<div class="w-full py-24 px-6 bg-cover bg-no-repeat bg-center relative z-10" style="background-image: url('/assets/img/content_team_3epn.png');">
 		
-        <div class="container max-w-4xl mx-auto text-center">
+        <div class=" banner-container container max-w-4xl mx-auto text-center">
             <h1 class="text-xl leading-tight md:text-3xl text-center text-gray-800 mb-3">Jaesoft IT Solutions</h1>
-            <p class="text-md md:text-lg text-center text-gray-500">We provide a wide range of IT solutions from USSD to App Development</p>
+            <p class="text-md md:text-lg text-center text-gray-800">We provide a wide range of IT solutions from USSD to App Development</p>
 
             <a href="/about" class="mt-6 inline-block bg-gray-200 text-gray-700 no-underline px-4 py-3 shadow-lg">Find out more</a>
         </div>

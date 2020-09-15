@@ -2,7 +2,7 @@
 extends: _layouts.service
 section: content
 title: USSD Application
-featured: false
+featured: true
 cover_image: /assets/img/post-cover-image-1.png
 description: >
     We build secure USSD applications that can be integrated to facilitate payments
