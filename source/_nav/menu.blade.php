@@ -1,15 +1,48 @@
-<!-- navigation -->
-<nav id="main_menu" class="w-full bg-white md:pt-0 px-6 shadow-lg relative z-20 border-t border-b border-gray-400">
-    <div class="container mx-auto max-w-4xl md:flex justify-between items-center text-sm md:text-md md:justify-start">
-        <div class="w-full md:w-1/2 text-center md:text-left py-4 flex flex-wrap justify-center items-stretch md:justify-start md:items-start">
-            <a href="/" title="{{ $page->siteName }} Home"              class="nav-menu nav-menu-border {{ $page->isActive('/') ? 'active text-blue-600' : '' }}">Home</a>
-            <a href="/services" title="{{ $page->siteName }} Services"     class="nav-menu nav-menu-border {{ $page->isActive('/services') ? 'active text-blue-600' : '' }}">Services</a>
-            <a href="/about" title="{{ $page->siteName }} About Us"     class="nav-menu nav-menu-border {{ $page->isActive('/about') ? 'active text-blue-600' : '' }}">About Us</a>
-            <a href="/contact" title="{{ $page->siteName }} Contact"    class="nav-menu                 {{ $page->isActive('/contact') ? 'active text-blue-600' : '' }}">Contact</a>
-        </div>
-        <div id="vue-search" class="flex flex-1 justify-end items-center">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    
+    <a class="navbar-brand row" href="#">
+            <img  class=" col-6 h-8 md:h-10 mr-3" src="/assets/img/main-logo.svg" alt="{{ $page->siteName }} logo" />  
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul id="reponsive-menu" class="my-0 navbar-nav mr-auto">
+            <li class="pl-4">
+                <a
+                    title="{{ $page->siteName }} Home"
+                    href="/"
+                    class="nav-menu__item hover:text-blue-500 {{ $page->isActive('/') ? 'active text-blue' : '' }}"
+                >Home</a>
+            </li>
+            <li class="pl-4">
+                <a
+                    title="{{ $page->siteName }} About"
+                    href="/services"
+                    class="nav-menu__item hover:text-blue-500 {{ $page->isActive('/about') ? 'active text-blue' : '' }}"
+                >Services</a>
+            </li>
+            <li class="pl-4">
+                <a
+                    title="{{ $page->siteName }} Contact"
+                    href="/about"
+                    class="nav-menu__item hover:text-blue-500 {{ $page->isActive('/contact') ? 'active text-blue' : '' }}"
+                >About us</a>
+            </li>
+            <li class="pl-4">
+                <a
+                    title="{{ $page->siteName }} Contact"
+                    href="/contact"
+                    class="nav-menu__item hover:text-blue-500 {{ $page->isActive('/contact') ? 'active text-blue' : '' }}"
+                >Contact us</a>
+            </li>
+        </ul>
+
+      <div class="flex-search">
+        <div id="vue-search" class="justify-end items-center">
             <search></search>
         </div>
     </div>
-</nav>
-<!-- /navigation -->
+    </div>
+  </nav>

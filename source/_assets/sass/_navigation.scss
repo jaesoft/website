@@ -1,71 +1,36 @@
 .nav-menu {
-    @apply px-2 text-gray-700 no-underline;
-
+  @apply px-2 text-gray-700 no-underline;
 }
 
 .nav-menu:hover {
-    @apply text-blue-600;
+  @apply text-blue-600;
 }
 
 .nav-menu-border {
-    @apply border-gray-400;
+  @apply border-gray-400;
 }
 
 @screen md {
-    .nav-menu-border {
-        @apply border-r;
-    }
+  .nav-menu-border {
+    @apply border-r;
+  }
 }
 
 @screen md {
-    .nav-menu {
-        @apply pl-0 mr-3 pr-3;
-    }
+  .nav-menu {
+    @apply pl-0 mr-3 pr-3;
+  }
 }
 
 .nav-menu__item {
-    @apply .block;
-    @apply .no-underline;
-    @apply .mb-4;
-    @apply .mt-0;
-    @apply .text-gray-800;
-    @apply .text-sm;
+  @apply .block;
+  @apply .no-underline;
+  @apply .mb-4;
+  @apply .mt-0;
+  @apply .text-gray-800;
+  @apply .text-sm;
 }
 
- 
-@media(max-width: 600px ){
-    #humberger svg{
-       height: 30px;
-       width: 30px;
-    }
-    #main_menu{
-        display: none;
-    }
-    #reponsive-menu li{
-        list-style: none;
-    }
-    
-    .flex-container{
-        display: flex;
-        margin-bottom: 2em;
-        min-height: 7vh;
-    }
-    .flex-search{
-        margin-left: auto;
-        position: relative;
-        top: .2em;
-    }
-    .icon-flex{
-        margin: auto 1em;
-
-    }
- 
-}
-@media(min-width: 600px ){
-
-    .flex-container{
-        display: none;
-    }
-
-
+.navbar-brand img {
+    width: 300px;
 }

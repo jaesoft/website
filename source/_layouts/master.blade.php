@@ -24,25 +24,12 @@
 
         <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     </head>
 
     <body class="flex flex-col min-h-screen bg-gray-100 text-gray-800 leading-normal font-sans">
         <!-- header -->
-		<header class="w-full px-6 bg-white">
-			<div class="container mx-auto max-w-4xl md:flex justify-between items-center">
-				<a href="/" title="{{ $page->siteName }} home" class="py-6 w-full text-center md:text-left md:w-auto text-gray-600 no-underline flex justify-center items-center">
-                <img class="h-8 md:h-10 mr-3" src="/assets/img/logo.svg" alt="{{ $page->siteName }} logo" />
-                {{ $page->siteName }}
-				</a>
-				<div class="w-full md:w-auto mb-6 md:mb-0 text-center md:text-right">
-					contact: {{ $page->contactNumber }} <br/>
-                    email:   {{ $page->contactEmail }}
-				</div>
-			</div>
-		</header>
-		<!-- /header -->
-        @include('_nav.menu-toggle')
-        @include('_nav.menu-responsive')
         @include('_nav.menu')
 
         <main role="main">
@@ -63,8 +50,11 @@
 			</div>
 		</footer>
 		<!-- /footer -->
-        <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
+        <script src="{{ mix('js/main.js', 'assets/build') }}"></script>z
 
         @stack('scripts')
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </body>
 </html>

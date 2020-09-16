@@ -10,12 +10,12 @@
 
 @section('body')
     <div class="product-header">
-        <h1>Jeosoft FAQs</h1>
+        <h1>{{ $page->siteName }}  FAQs</h1>
     </div>
 
 <div class="container-main-faqs">
     <div class="question">
-        <h4 class="question-header">What is Jaesoft? </h4>
+        <h4 class="question-header">What is  {{ $page->siteName }} ? </h4>
         <p class="answer">
             Jaesoft is a software company dedicated towards providing a range of IT solution services to
             meet your precise business and technological needs. 
