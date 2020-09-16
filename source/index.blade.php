@@ -2,7 +2,7 @@
 
 @section('body')
     <!-- hero -->
-	<div class="w-full py-24 px-6 bg-cover bg-no-repeat bg-center relative z-10" style="background-image: url('/assets/img/content_team_3epn.png');">
+	<div class="w-full py-24 px-6 bg-cover bg-no-repeat bg-center relative z-10" style="background-image: url('/assets/img/discoverable_dark.png');">
 		
         <div class="container max-w-4xl mx-auto text-center">
             <h1 class="text-xl leading-tight md:text-3xl text-center text-gray-800 mb-3">Jaesoft IT Solutions</h1>
