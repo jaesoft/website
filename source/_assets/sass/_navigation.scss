@@ -1,5 +1,6 @@
 .nav-menu {
     @apply px-2 text-gray-700 no-underline;
+
 }
 
 .nav-menu:hover {
@@ -31,8 +32,12 @@
     @apply .text-sm;
 }
 
-
+ 
 @media(max-width: 600px ){
+    #humberger svg{
+       height: 30px;
+       width: 30px;
+    }
     #main_menu{
         display: none;
     }
