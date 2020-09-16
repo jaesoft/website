@@ -132,8 +132,7 @@
         </div>
     </div>
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8794.950440296907!2d-0.23302355492949461!3d5.567131611647116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9a01cf93ff85%3A0x3b6fd9b89c7ad508!2sAccra%20Digital%20Centre!5e0!3m2!1sen!2sgh!4v1599902260368!5m2!1sen!2sgh" width="300" height="255" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-</div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.171211440912!2d-0.20923168523412286!3d5.5416119959819525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNcKwMzInMjkuOCJOIDDCsDEyJzI1LjQiVw!5e0!3m2!1sen!2sgh!4v1600248987301!5m2!1sen!2sgh"frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
     </div>
 
 
