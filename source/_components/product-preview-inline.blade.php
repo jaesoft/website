@@ -1,5 +1,5 @@
 
-    <div class=" col-12 col-md-4 my-4 mx-2 w-full md:w-1/3 flex flex-col items-center px-4">
+    <div class=" product mx-4 my-4 px-3 col-12 col-sm-12 col-md-12 col-lg-3">
         <div class="lead-img">
             <img alt="{{ $post->title }} cover image" src="{{ $post->cover_image }}" class="w-full h-64 object-cover mb-6" />
         </div>
