@@ -3,6 +3,7 @@ pagination:
     collection: services
     perPage: 4
 ---
+ 
 @extends('_layouts.master')
 
 @push('meta')

@@ -25,11 +25,13 @@
 
         </div>
 
-        <div class="container space-x-10 max-w-4xl mx-auto text-center flex flex-wrap items-start md:flex-no-wrap">
+    <div class="row">
+        <div class=" product-prev row ">
             @foreach ($services->where('featured', true) as $post)
                 @include('_components.product-preview-inline')
             @endforeach
         </div>
+    </div>
     </div>
     <!-- /home content -->
     @include('_components.newsletter-signup')
