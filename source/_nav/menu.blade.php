@@ -1,4 +1,6 @@
 <nav class=" sticky my-nav navbar navbar-expand-lg navbar-light bg-light">
+
+
     
     <a class="navbar-brand row" href="#">
             <img  class=" col-6 h-8 md:h-10 mr-3" src="/assets/img/main-logo.svg" alt="{{ $page->siteName }} logo" />  
@@ -14,6 +16,7 @@
                     title="{{ $page->siteName }} Home"
                     href="/"
                     class="  nav-menu__item hover:text-blue-500 {{ $page->isActive('/') ? 'active text-blue' : '' }}"
+
                 >Home</a>
             </li>
             <li class="pl-4">
