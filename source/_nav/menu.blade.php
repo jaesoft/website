@@ -1,4 +1,6 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class=" sticky my-nav navbar navbar-expand-lg navbar-light bg-light">
+
+
     
     <a class="navbar-brand row" href="#">
             <img  class=" col-6 h-8 md:h-10 mr-3" src="/assets/img/main-logo.svg" alt="{{ $page->siteName }} logo" />  
@@ -7,13 +9,14 @@
       <span class="navbar-toggler-icon"></span>
     </button>
   
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class=" nav-content collapse navbar-collapse" id="navbarSupportedContent">
         <ul id="reponsive-menu" class="my-0 navbar-nav mr-auto">
-            <li class="pl-4">
+            <li class="  pl-4">
                 <a
                     title="{{ $page->siteName }} Home"
                     href="/"
-                    class="nav-menu__item hover:text-blue-500 {{ $page->isActive('/') ? 'active text-blue' : '' }}"
+                    class="  nav-menu__item hover:text-blue-500 {{ $page->isActive('/') ? 'active text-blue' : '' }}"
+
                 >Home</a>
             </li>
             <li class="pl-4">
