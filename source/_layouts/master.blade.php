@@ -28,7 +28,7 @@
 
     </head>
 
-    <body class="flex flex-col min-h-screen bg-gray-100 text-gray-800 leading-normal font-sans">
+    <body class="bg-gray-100 text-gray-800 leading-normal font-sans">
         <!-- header -->
         @include('_nav.menu')
 

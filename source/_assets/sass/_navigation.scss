@@ -1,3 +1,5 @@
+
+
 .nav-menu {
 
 
@@ -33,9 +35,22 @@ v-menu:hover {
   @apply .text-sm;
 
 }
- 
+.my-nav{
+  min-height: 10vh;
+}
+ .my-nav a{
+   font-size: 1.2rem;
+   color: rgb(80, 79, 79) ;
+ }
 
 .navbar-brand img {
-    width: 300px;
+    width: 250px;
+
 
 }
+.nav-content{
+  margin-top: 2em;
+
+}
+
+  
