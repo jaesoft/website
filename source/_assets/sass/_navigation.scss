@@ -1,6 +1,7 @@
 .nav-menu {
+
   @apply px-2 text-gray-700 no-underline;
-}
+
 
 .nav-menu:hover {
   @apply text-blue-600;
@@ -33,4 +34,5 @@
 
 .navbar-brand img {
     width: 300px;
+
 }
