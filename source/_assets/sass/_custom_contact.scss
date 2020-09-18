@@ -21,9 +21,10 @@
 }
 .bottm-container{
   display: flex;
+  flex-direction: column;
 }
 .map-container{
-margin-left: 10em;
+
 margin-bottom: 2em;
 }
 .map-header{
@@ -35,8 +36,8 @@ margin-bottom: 2em;
   margin-right: 1em;
 }
 iframe{
-  width: 40vw;
-  height: 50vh;
+  width: 90vw;
+  height: 60vh;
 }
 
 @media(max-width: 900px ){
@@ -44,7 +45,7 @@ iframe{
     display: block;
   }
   iframe{
-    width: 80vw;
+    width: 90vw;
     height: 60vh;
   }
   .map-container{
