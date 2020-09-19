@@ -21,12 +21,14 @@
             We provide an extensive range of financial technology services to meet your precise requirements.
             </h3>
 
-            <a href="/service" class="bg-black text-white px-4 py-3 no-underline">Browse our services</a>
+            <a href="/services" class="bg-black text-white px-4 py-3 no-underline">Browse our services</a>
 
         </div>
 
+
   
         <div class="m-flex mg-r ">
+
             @foreach ($services->where('featured', true) as $post)
                 @include('_components.product-preview-inline')
             @endforeach
