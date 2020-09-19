@@ -9,8 +9,12 @@
 @endpush
 
 @section('body')
-    <div class="product-header">
-        <h1>{{ $page->siteName }}  FAQs</h1>
+    <div class=" page-banner w-full bg-cover bg-no-repeat bg-center "style="background-image: url('/assets/img/bg2.jpg');">
+        <div class="page-banner-overley">
+            <div class="page-banner-content">
+                <h1 class="text-white bold">{{ $page->siteName }}  FAQs</h1>
+            </div>
+        </div>
     </div>
 
 <div class="container-main-faqs">

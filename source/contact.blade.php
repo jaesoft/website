@@ -9,8 +9,12 @@
 
 @section('body')
 
-<div class="contact-header">
-    <h1>Contact  us</h1>
+<div class=" page-banner w-full bg-cover bg-no-repeat bg-center "style="background-image: url('/assets/img/bg2.jpg');">
+    <div class="page-banner-overley">
+        <div class="page-banner-content">
+            <h1 class="text-white bold"> Contact {{ $page->siteName }}</h1>
+        </div>
+    </div>
 </div>
 <div class="contact-container">
 
