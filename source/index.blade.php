@@ -14,7 +14,7 @@
     </div>
     <!-- /hero -->
     <!-- home content -->
-    <div class="w-full px-6 py-12 bg-white">
+    <div class="w-full px-2 py-12 bg-white">
         <div class="container max-w-4xl mx-auto text-center pb-10">
             
             <h3 class="text-xl md:text-3xl leading-tight text-center max-w-md mx-auto text-gray-900 mb-12">
@@ -25,14 +25,15 @@
 
         </div>
 
-    <div class="row">
-        <div class=" product-prev row ">
+  
+        <div class="m-flex mg-r ">
             @foreach ($services->where('featured', true) as $post)
                 @include('_components.product-preview-inline')
             @endforeach
         </div>
+        
     </div>
-    </div>
+    
     <!-- /home content -->
     @include('_components.newsletter-signup')
     <!-- about -->
