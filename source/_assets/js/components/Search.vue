@@ -1,16 +1,14 @@
 <template>
-    <div class="flex flex-1 justify-end items-center text-right px-4">
+    <div class="flex mr-10 flex-2 sm:justify-end items-center text-right px-2">
         <div
-            class="absolute md:relative w-full justify-end bg-white left-0 top-0 z-10 mt-7 md:mt-0 px-4 md:px-0"
+            class="absolute md:relative w-full justify-end left-0 top-0 z-10 mt-7 md:mt-0 px-4 md:px-0"
             :class="{'hidden md:flex': ! searching}"
         >
-            <label for="search" class="hidden">Search</label>
-
             <input
                 id="search"
                 v-model="query"
                 ref="search"
-                class="transition-fast relative block h-10 w-full lg:w-1/2 lg:focus:w-3/4 bg-gray-100 border border-gray-500 focus:border-blue-400 outline-none cursor-pointer text-gray-700 px-4 pb-0 pt-px"
+                class="transition-fast relative block h-10 w-full lg:w-3/4 lg:focus:w-full bg-gray-100 border border-gray-500 focus:border-blue-400 outline-none cursor-pointer text-gray-700 px-4 pb-0 pt-px"
                 :class="{ 'transition-border': query }"
                 autocomplete="off"
                 name="search"
