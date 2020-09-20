@@ -75,22 +75,25 @@
                             Health system
                             for hospitals, health institutions and health insurance companies 
                         </div>
-                        
-                        <div class="col-item">
-                            @include('_components.newsletter-signup')
-                        </div>
-                        <div class="div-col-item">
+
+                        <div class=" py-6 div-col-item">
                             <p class="mb-6">
                               <a href="/faqs">  Have more questions?</a>
                             </p>
                         </div>
-                   
+                  
                     </div>
                 </div>
             </div>
-        </div>
+                                    
+
         
 
         </div>
+ 
+    </div>
+    <div class="col-item">
+        @include('_components.newsletter-signup')
+    </div>
     </div>
 @endsection
