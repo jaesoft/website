@@ -1,6 +1,6 @@
 
 @extends('_layouts.master')
-
+ 
 @push('meta')
     <meta property="og:title" content="{{ $page->siteName }} Product" />
     <meta property="og:type" content="website" />
@@ -9,8 +9,12 @@
 @endpush
 
 @section('body')
-    <div class="service-main-header">
-        <h1>Our Services</h1>
+    <div class=" page-banner w-full bg-cover bg-no-repeat bg-center "style="background-image: url('/assets/img/bg2.jpg');">
+        <div class="page-banner-overley">
+            <div class="page-banner-content">
+                <h1 class="text-white bold">Our Services</h1>
+            </div>
+        </div>
     </div>
 <div class="services-container-main">
     

@@ -1,15 +1,61 @@
-@media (min-width: 600px) {
-  .service-container {
-      margin: 5em 5em 2em 5em;
-      display: flex;
-      justify-content: space-between;
+@media (min-width: 1200px) {
+  .mg-l {
+    margin-left: 2vw;
   }
-  
+  .mg-r {
+    margin-right: 2vw;
+  }
+  .m-flex {
+    display: flex;
+  }
+  #title {
+    font-size: 3rem;
+  }
+  #main-text {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 1200px) {
+  .c-container {
+    max-width: 70vw;
+    margin: 3em auto;
+  }
 }
 
 @media (max-width: 600px) {
-    .service-container {
-        margin: 5em 2em 2em 2em;
-    }
-    
+  .m-flex {
+    display: block;
   }
+  .c-container {
+    max-width: 90vw;
+    margin: 3em auto;
+  }
+  #title {
+    font-size: 2rem;
+  }
+  #main-text {
+    font-size: 1rem;
+  }
+}
+
+.box-shadow-hover {
+  transition-property: all;
+  transition-duration: 2s;
+}
+
+.box-shadow-hover:hover {
+  box-shadow: 2em 2em 2em #ccc;
+}
+.banner-container {
+  height: 70vh;
+}
+.banner-overlay {
+  background-color: rgb(49, 48, 48, 0.3);
+  height: 70vh;
+}
+
+.banner-content {
+  position: relative;
+  top: 40%;
+  bottom: 50%;
+}

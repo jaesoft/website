@@ -1,0 +1,32 @@
+.service-container{
+  width: 90vw;
+  margin: 2em auto;
+}
+.service-header-2{
+  text-align: center;
+  padding-bottom: 2em;
+}
+.service-flex-container{
+  display: flex;
+  margin: 2em auto;
+  width: 90vw;
+}
+.service-flex-1{
+flex: 1;
+}
+.service-flex-2{
+flex: 1;
+}
+.service-p{
+  line-height: 2em;
+  font-size: 1.5rem;
+}
+@media(max-width:600px){
+  .service-flex-container{
+    display: flex;
+    flex-direction: column;
+    margin: 2em auto;
+    width: 85vw;
+  }
+
+}
