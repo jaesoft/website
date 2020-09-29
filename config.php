@@ -6,10 +6,10 @@ return [
     'baseUrl' => '',
     'production' => false,
     'siteName' => 'Jaesoft',
-    'siteDescription' => 'Jaesoft - IT Solutions. We build USSD apps, consultancy on architecture, app development, website design etc',
+    'siteDescription' => 'Jaesoft - IT Solutions. We build USSD apps, consultancy on architecture, app development, website design',
     'siteAuthor' => 'Julius Krah',
-    'contactEmail' => 'info@jaesoft.tech',
-    'contactNumber' => '+233-26-123-456',
+    'contactEmail' => 'hello@jaesoft.tech',
+    'contactNumber' => '+233-50-047-7012',
 
     // collections
     'collections' => [

@@ -19,7 +19,7 @@
 <div class="contact-container">
 
     <h3 class="form-header">Fill the form below to send us a direct mail</h3>
-    <form action="/contact" class="mb-12">
+    <form action="/contact" class="mb-12" netlify>
         <div class="flex flex-wrap mb-6 -mx-3">
             <div class="w-full md:w-1/2 mb-6 md:mb-0 px-3">
                 <label class="block mb-2 text-gray-800 text-sm font-semibold" for="contact-name">
